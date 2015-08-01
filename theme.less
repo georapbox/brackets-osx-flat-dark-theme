@@ -1,8 +1,8 @@
 /* OS X Style - Flat & Dark theme, style file. */
 
 /* Color Settings */
-@background: #1F1F21;
-@foreground: #F7F7F7;
+@background: #242427;
+@foreground: #dbdbdb;
 
 @white: #FFFFFF;
 @black: #000;
@@ -30,9 +30,7 @@
 }
 
 .CodeMirror-focused .CodeMirror-activeline-background {
-    background: none;
-    border-top: 1px solid @gray;
-    border-bottom: 1px solid @gray;
+    background: #171717;
 }
 
 .show-line-padding .CodeMirror-focused .CodeMirror-activeline-background {
@@ -41,10 +39,8 @@
 
 .CodeMirror-focused .CodeMirror-activeline {
     .CodeMirror-gutter-elt {
-        background: none;
+        background: #171717;
         color: @ios_blue;
-        border-top: 1px solid @gray;
-        border-bottom: 1px solid @gray;
     }
     .inline-widget .CodeMirror-gutter-elt {
         color: #767676;
@@ -126,7 +122,7 @@
 }
 
 .CodeMirror-linenumber {
-    color: @white;
+    color: @foreground;
 }
 
 .CodeMirror .CodeMirror-selected {
